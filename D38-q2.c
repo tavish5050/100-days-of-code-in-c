@@ -5,12 +5,9 @@ int main()
 {
     int matrix[10][10];
     int n, i, j, symmetric = 1;
-
     printf("Enter the order of the matrix: ");
     scanf("%d", &n);
-
     printf("Enter the elements of the matrix:\n");
-
     for(i = 0; i < n; i++)
     {
         for(j = 0; j < n; j++)
@@ -19,7 +16,6 @@ int main()
         }
     }
 
-   
     for(i = 0; i < n; i++)
     {
         for(j = 0; j < n; j++)
