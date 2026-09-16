@@ -12,7 +12,7 @@
     } 
     printf("Enter the position to delete: "); 
     scanf("%d", &position); 
-    // Shift elements to the left 
+     
     for(i = position - 1; i < n - 1; i++) 
     { 
         arr[i] = arr[i + 1]; 

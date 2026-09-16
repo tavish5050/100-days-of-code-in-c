@@ -9,14 +9,14 @@ int main()
     scanf("%lld", &n); 
     if(n < 0) 
     n = -n; 
-    // Count frequency of each digit 
+     
     while(n > 0) 
     { 
         digit = n % 10; 
         count[digit]++; 
         n = n / 10; 
     } 
-    // Find the digit with maximum frequency 
+     
     for(i = 0; i < 10; i++) 
     { 
         if(count[i] > max) 

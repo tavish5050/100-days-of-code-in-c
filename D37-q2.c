@@ -22,7 +22,7 @@ int main()
         }
     }
 
-    // Find transpose
+
     for(i = 0; i < rows; i++)
     {
         for(j = 0; j < columns; j++)
